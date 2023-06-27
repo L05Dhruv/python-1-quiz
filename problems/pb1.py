@@ -1,7 +1,7 @@
 def replace_spaces(sentence, char):
     return sentence.replace(' ', char)
 
-
+# this is a comment
 
 sentence = "Test  This is a test   Testing "
 sentence2 = replace_spaces(sentence, "_")
