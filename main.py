@@ -8,8 +8,8 @@ def main():
     # Test Cases
 
     # Problem #1: Replace Spaces
-    # sentence = "Test  This is a test   Testing "
-    # sentence2 = pb1.replace_spaces(sentence, "_")
+    sentence = "Test  This is a test   Testing "
+    sentence2 = pb1.replace_spaces(sentence, "_")
     # print(sentence2)
 
     # Problem #2: Max Values
@@ -18,7 +18,7 @@ def main():
 
     # Problem #3: Youngest Student
     students = {"Alice": 18, "Bob": 20, "Charlie": 19, "David": 22, "Jay": 20}
-    print(pb3.youngest_student(students))  # Expected output: "Alice"
+    # print(pb3.youngest_student(students))  # Expected output: "Alice"
 
 
 if __name__ == '__main__':
